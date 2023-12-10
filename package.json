@@ -12,6 +12,7 @@
   "dependencies": {
     "@noble/curves": "^1.2.0",
     "curve": "^0.1.1",
+    "ethereum-cryptography": "^2.1.2",
     "express": "^4.18.2",
     "web3": "^4.3.0"
   }

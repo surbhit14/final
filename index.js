@@ -523,9 +523,9 @@ const contractAddress = '0x2c80688bd7D367A269a3C7fA05597188264D0614'; // Your co
 const web3 = new Web3('https://polygon-mumbai.infura.io/v3/39b2abffe10e4659a12074ce9a344bae'); // Or your preferred Ethereum node URL
 const contract = new web3.eth.Contract(contractABI, contractAddress);
 
-app.get('/', (req, res) => {
-	res.send('Hello World!');
-});
+// app.get('/', (req, res) => {
+// 	res.send('Hello World!');
+// });
 
 // Endpoint to fetch sent payments for a given address
 app.get('/getSentPayments/:address', async (req, res) => {
